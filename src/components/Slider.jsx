@@ -10,7 +10,7 @@ export default function Slider() {
 
         <>
             <Carousel>
-                <CarouselItem style={{'height': '700px'}}>
+                <CarouselItem style={{'height': '600px'}}>
                     <img
                         className="d-block w-100"
                         src={ocean}
@@ -22,7 +22,7 @@ export default function Slider() {
                     </Carousel.Caption>
                 </CarouselItem>
 
-                <CarouselItem style={{ 'height': '700px' }}>
+                <CarouselItem style={{ 'height': '600px' }}>
                     <img
                         className="d-block w-100"
                         src={ocean1}
@@ -36,7 +36,7 @@ export default function Slider() {
 
 
 
-                <CarouselItem style={{ 'height': '700px' }}>
+                <CarouselItem style={{ 'height': '600px' }}>
                     <img
                         className="d-block w-100"
                         src={ocean2}
