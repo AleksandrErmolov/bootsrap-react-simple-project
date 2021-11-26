@@ -1,6 +1,7 @@
 import React from "react";
-import { Navbar, Nav, Button} from "react-bootstrap";
+import { Navbar, Nav, Button, Container} from "react-bootstrap";
 import { Link } from "react-router-dom";
+import styled from "styled-components"
 
 
 
@@ -10,10 +11,11 @@ export default function NaviBar() {
 
         <>
             <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+
                 <Navbar.Brand>Ermolov TEST</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
-                    <Nav className="me-auto">
+                    <Nav className="m-auto">
                         <Nav.Link> <Link to="/"> Home </Link> </Nav.Link>
                         <Nav.Link> <Link to="/users"> Users </Link> </Nav.Link>
                         <Nav.Link> <Link to="/about"> About </Link> </Nav.Link>
